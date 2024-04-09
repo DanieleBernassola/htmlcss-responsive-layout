@@ -92,22 +92,31 @@ header{
 .menu-desktop{
     display: none;
 }
+
+.text-align-center{
+    text-align: center;
+}
 /* INIZIO BACKGROUND */
 .bg-blue{
-    background-color: rgba(181,221,255,1);
+    background-color: rgb(181, 221, 255);
 }
 
 .bg-violet{
-    background-color: rgba(151,146,228,1);
+    background-color: rgb(151, 146, 228);
 }
 
 .bg-white{
     background-color: white;
 }
+
+.bg-darkgray{
+    background-color: rgb(51, 51, 51);
+}
 /* FINE BACKGROUND */
 /* FINE UTILITY */
 
 /* INIZIO MEDIA QUERY */
+/* INIZIO MEDIA QUERY TABLET */
 @media screen and (min-width: 480px) {
     .row{
         flex-direction: row;
@@ -147,7 +156,8 @@ header{
         margin: 0.5rem;
     }
 }
-
+/* FINE MEDIA QUERY TABLET */
+/* INIZIO MEDIA QUERY DESKTOP */
 @media screen and (min-width: 768px){
     .container-short{
         max-width: 991px;
@@ -185,4 +195,5 @@ header{
         margin: 0.5rem;
     }
 }
+/* FINE MEDIA QUERY DESKTOP */
 /* FINE MEDIA QUERY */
