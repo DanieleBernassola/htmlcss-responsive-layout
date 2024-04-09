@@ -3,3 +3,45 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    background-color: rgba(0,132,253,1);
+}
+/* INIZIO LAYOUT */
+.container{
+    padding: 1rem 0;
+}
+
+.header-container{
+    padding: 0 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+/* FINE LAYOUT */
+/* INIZIO UTILITY */
+.menu-desktop{
+    display: none;
+}
+/* FINE UTILITY */
+
+/* INIZIO MEDIA QUERY */
+@media screen and (min-width: 768px){
+    .menu-desktop{
+        display: block;
+    }
+
+    .menu-mobile{
+        display: none;
+    }
+
+    .container{
+        max-width: 1140px;
+        margin: 0 auto;
+    }
+}
+/* FINE MEDIA QUERY */
