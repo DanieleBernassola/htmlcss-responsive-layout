@@ -42,19 +42,20 @@ header{
     justify-content: space-between;
 }
 
+.col{
+    border-radius: 1rem;
+    margin-bottom: 1rem;
+}
+
 .col-33{
     height: 200px;
-    border-radius: 1rem;
     padding: 0 1rem;
-    margin-bottom: 1rem;
 }
 
 .col-50{
     width: 100%;
     height: 300px;
     border: 1px solid black;
-    border-radius: 1rem;
-    margin-bottom: 1rem;
 }
 
 .col-66 .col-50-demo{
@@ -65,8 +66,24 @@ header{
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
-    margin-bottom: 1rem;
-    border-radius: 1rem;
+}
+
+.col-100{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 100%;
+    height: 200px;
+}
+
+.col-img{
+    height: 50%;
+    border: 1px solid black;
+}
+
+.col-text{
+    height: 50%;
+    border: 1px solid black;
 }
 /* FINE LAYOUT */
 /* INIZIO UTILITY */
@@ -107,6 +124,20 @@ header{
     .col-66{
         width: calc(100% / 3 * 2 - 1rem);
         margin: 0.5rem 0.5rem;
+    }
+
+    .col-100{
+        flex-direction: row;
+    }
+
+    .col-img{
+        width: 30%;
+        height: 100%;
+    }
+
+    .col-text{
+        width: 70%;
+        height: 100%;
     }
 }
 
