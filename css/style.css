@@ -50,6 +50,7 @@ header{
 .col-33{
     height: 200px;
     padding: 0 1rem;
+    border: 1px solid black;
 }
 
 .col-50{
@@ -74,6 +75,7 @@ header{
     flex-direction: column;
     width: 100%;
     height: 200px;
+    border: 1px solid yellow;
 }
 
 .col-img{
@@ -113,7 +115,7 @@ header{
 
     .col-33{
         width: calc(100% / 3 - 1rem);
-        margin: 0.5rem 0.5rem;
+        margin: 0.5rem;
     }
 
     .col-66 .col-50-demo{
@@ -123,7 +125,7 @@ header{
 
     .col-66{
         width: calc(100% / 3 * 2 - 1rem);
-        margin: 0.5rem 0.5rem;
+        margin: 0.5rem;
     }
 
     .col-100{
@@ -138,6 +140,11 @@ header{
     .col-text{
         width: 70%;
         height: 100%;
+    }
+
+    .benefits{
+        width: calc(50% - 1rem);
+        margin: 0.5rem;
     }
 }
 
@@ -171,6 +178,11 @@ header{
 
     .col-50{
         width: calc(50%);
+    }
+
+    .benefits{
+        width: calc(100% / 3 - 1rem);
+        margin: 0.5rem;
     }
 }
 /* FINE MEDIA QUERY */
