@@ -178,6 +178,24 @@ ul li a{
     right: 60%;
     top: 0;
 }
+
+.free-title{
+    font-size: 3rem;
+}
+
+#get-started{
+    padding: 1rem 4rem;
+    border-radius: 2rem;
+    font-size: 1rem;
+}
+
+#bottom-footer{
+    line-height: 1.25rem;
+}
+
+#bottom-footer span{
+    text-decoration: underline;
+}
 /* INIZIO UTILITY MARGIN E PADDING */
 .my-1{
     margin: 1rem 0;
@@ -203,6 +221,10 @@ ul li a{
 
 .color-lightblack{
     color: #222;
+}
+
+.color-yellow{
+    color: rgb(253, 193, 95);
 }
 
 .jumbo-img{
@@ -323,6 +345,11 @@ ul li a{
 
     #about-us .fas.fa-quote-left{
         right: 20%;
+    }
+
+    footer .container-short{
+        max-width: 520px;
+        margin: 0 auto;
     }
 }
 /* FINE MEDIA QUERY TABLET */
