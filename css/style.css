@@ -82,18 +82,12 @@ header{
 }
 
 .col-100{
-    display: flex;
-    flex-wrap: wrap;
     width: 100%;
 }
 
 .col-img img{
     width: 50%;
     border-radius: 10rem;
-}
-
-.col-33, .col-50-demo .content{
-    color: #5a6e7f;
 }
 
 #jumbo .content{
@@ -144,6 +138,11 @@ ul li a{
     color: white;
 }
 
+.btn-violet{
+    background-color: rgb(151, 146, 228);
+    color: white;
+}
+
 .font-size-1-25{
     font-size: 1.25rem;
 }
@@ -182,6 +181,10 @@ ul li a{
     color: rgb(151, 146, 228);
 }
 
+.color-gray{
+    color: #5a6e7f;
+}
+
 .jumbo-img{
     width: 100%;
 }
@@ -198,6 +201,18 @@ ul li a{
 .fa-down-long{
     padding: 1rem;
     border-radius: 2rem;
+}
+
+.benefit .content{
+    padding: 2rem 0;
+}
+
+.number-benefit{
+    font-size: 2.5rem;
+}
+
+#benefits .btn-violet{
+    padding: 0.5rem 2rem;
 }
 /* FINE UTILITY SEZIONI MAIN */
 /* INIZIO BACKGROUND */
@@ -238,6 +253,10 @@ ul li a{
 
     .col-50-demo img{
         width: 50%;
+    }
+
+    #testimonials .col-100{
+        display: flex;
     }
 
     .col-img{
