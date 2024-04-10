@@ -6,7 +6,7 @@
 
 body{
     font-family: Arial, Helvetica, sans-serif;
-    line-height: 1.5rem;
+    line-height: 2rem;
 }
 
 header{
@@ -162,6 +162,22 @@ ul li a{
 #appstore-button{
     width: 80%;
 }
+
+.about-title{
+    font-size: 3rem;
+    margin-bottom: 3rem;
+}
+
+#about-us .col-img .content{
+    position: relative;
+}
+
+#about-us .fas.fa-quote-left{
+    position: absolute;
+    font-size: 3rem;
+    right: 60%;
+    top: 0;
+}
 /* INIZIO UTILITY MARGIN E PADDING */
 .my-1{
     margin: 1rem 0;
@@ -183,6 +199,10 @@ ul li a{
 
 .color-gray{
     color: #5a6e7f;
+}
+
+.color-lightblack{
+    color: #222;
 }
 
 .jumbo-img{
@@ -259,6 +279,18 @@ ul li a{
         display: flex;
     }
 
+    #about-us .col-100{
+        display: flex;
+    }
+
+    #about-us .col-img{
+        width: 35%;
+    }
+
+    #about-us .col-text{
+        width: 65%;
+    }
+
     .col-img{
         width: 25%;
     }
@@ -287,6 +319,10 @@ ul li a{
     
     #appstore-button{
         width: 50%;
+    }
+
+    #about-us .fas.fa-quote-left{
+        right: 20%;
     }
 }
 /* FINE MEDIA QUERY TABLET */
