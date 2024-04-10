@@ -45,6 +45,16 @@ header{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    align-items: center;
+}
+
+.d-flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.align-items-center{
+    align-items: center;
 }
 
 .col{
@@ -94,8 +104,37 @@ header{
 }
 /* FINE LAYOUT */
 /* INIZIO UTILITY */
+.logo img{
+    height: 2rem;
+}
+
+.header-container i{
+    font-size: 2rem;
+}
+
 .menu-desktop{
     display: none;
+}
+
+ul li{
+    list-style-type: none;
+    padding: 0 1rem;
+}
+
+ul li a{
+    color: white;
+    text-decoration: none;
+}
+
+.btn{
+    padding: 0.5rem;
+    border-radius: 1rem;
+    border: 0;
+}
+
+.btn-white{
+    background-color: white;
+    color: #111;
 }
 
 .text-align-center{
