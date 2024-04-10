@@ -18,12 +18,10 @@ header{
 }
 
 .container{
-    padding: 1rem 0;
     margin: 0 1rem;
 }
 
 .container-short{
-    padding: 1rem 0;
     margin: 0 1rem;
 }
 
@@ -34,9 +32,16 @@ header{
     flex-wrap: wrap;
 }
 
+#jumbo .row{
+    margin: 0 -0.5rem;
+}
+
+#benefits .row {
+    margin: 0 -0.5rem;
+}
+
 .header-container{
-    padding: 0 1rem;
-    margin: 0;
+    padding: 1rem 0;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -151,7 +156,7 @@ header{
         height: 100%;
     }
 
-    .benefits{
+    .benefit{
         width: calc(50% - 1rem);
         margin: 0.5rem;
     }
@@ -159,6 +164,11 @@ header{
 /* FINE MEDIA QUERY TABLET */
 /* INIZIO MEDIA QUERY DESKTOP */
 @media screen and (min-width: 768px){
+    .container{
+        max-width: 1140px;
+        margin: 0 auto;
+    }
+    
     .container-short{
         max-width: 991px;
         margin: 0 auto;
@@ -170,11 +180,6 @@ header{
 
     .menu-mobile{
         display: none;
-    }
-
-    .container{
-        max-width: 1140px;
-        margin: 0 auto;
     }
 
     .col-66{
@@ -190,7 +195,7 @@ header{
         width: calc(50%);
     }
 
-    .benefits{
+    .benefit{
         width: calc(100% / 3 - 1rem);
         margin: 0.5rem;
     }
